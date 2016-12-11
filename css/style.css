@@ -1,0 +1,254 @@
+.navbar {
+    background-color: #403F41;
+    border: 0;
+}
+.navbar-nav > li > a {
+    color: #fff;
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 1.5rem;
+}
+.navbar-nav > li > a:hover {
+    background-color: #de4a4a;
+}
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #5c7dc0;
+}
+.navbar-brand {
+    width: 150px;
+    padding: 5px 0 0 20px;
+}
+.jumbotron {
+    height: 680px;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+.nopadding {
+    padding: 0 !important;
+}
+.padding_offer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.jumbotron_container {
+    background-color: rgba(30, 30, 30, 0.6);
+    color: #fff;
+    margin-top: 25rem;
+    padding: 30px;
+    border-radius: 6px;
+}
+.jumbotron_container > h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+.jumbotron_container > p {
+    font-family: 'Raleway', sans-serif;
+}
+.poster {
+    /*background-image: url("https://static.pexels.com/photos/90454/pexels-photo-90454.jpeg");*/
+    background-image: url('../img/poster.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all .2s ease;
+    margin-bottom: 0;
+}
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+#top_info {
+    padding: 0 2rem 0 0;
+    background-color: #351735;
+    color: #fff;
+}
+#top_info_title {
+    padding-top: 5rem;
+    padding-left: 10%;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-family: 'Dosis', sans-serif;
+}
+#about_info {
+    padding: 0 0 0 2rem;
+    background-color: #363131;
+    color: #fff;
+}
+#about_info_title {
+    padding-top: 4rem;
+    padding-left: 10%;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-family: 'Dosis', sans-serif;
+}
+#cooperation_info {
+    padding: 0 2rem 0 0;
+    background-color: #322B4A;
+    color: #fff;
+}
+#cooperation_info_title {
+    padding-top: 5rem;
+    padding-left: 10%;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    font-family: 'Dosis', sans-serif;
+}
+#offer_info_title {
+    padding-top: 5rem;
+    padding-left: 10%;
+    font-size: 8rem;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.text_content {
+    padding-top: 3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+#shop_info {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 20rem;
+}
+#contact_info {
+    padding-top: 5rem;
+    padding-bottom:  6rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #392B2B;
+}
+.contact_title {
+    font-size: 7rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 6rem;
+    font-family: 'Dosis', sans-serif;
+}
+#footer {
+    background-color: #5C485C;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.form_content {
+    padding-left: 10%;
+    color: #fff;
+}
+.form_content > button {
+    margin-top: 2rem;
+    width: 300px;
+}
+.margin_bottom {
+    margin-bottom: 2rem !important;
+}
+textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.allegro {
+    border-radius: 6px;
+}
+.adres {
+    margin-left: 20%;
+}
+.poster2 {
+    background-image: url('../img/poster2.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all .2s ease;
+    margin-bottom: 0;
+}
+.img-responsive {
+    margin: auto;
+}
+.padding_offer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#offer_info {
+    padding: 5rem;
+    margin-bottom: 5rem;
+}
+.tittle {
+    font-family: 'Dosis', sans-serif;
+}
+.info {
+    background-color: #5C485C;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+.offer_margin {
+    margin-bottom: 5rem;
+}
+.offer_container {
+    background-color: rgba(23, 37, 96, 0.6);
+    color: #fff;
+    margin-top: 20rem;
+    padding: 40px 20px;
+    border-radius: 6px;
+    width: 900px;
+    text-align: center;
+}
+.offer_container > h2 {
+    font-family: 'Dosis', sans-serif;
+}
+.offer_container > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px rgba(0,0,0, 0.8);
+}
+a {
+   outline: 0;
+}
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+.bx-shadow-b {
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);
+}
+.bx-shadow-w {
+    box-shadow: 0px 0px 10px 4px rgba(102,175,233,0.75);
+}
+.navbar-toggle .icon-bar {
+    background-color: rgba(255,255,255,1);
+}
+.icon {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
